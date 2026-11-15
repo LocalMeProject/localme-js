@@ -1,0 +1,16 @@
+{
+  "name": "@localme/sdk",
+  "version": "1.0.0",
+  "description": "Official TypeScript SDK for LocalMe Sovereign BaaS & Edge PaaS",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node --test tests/*.test.ts",
+    "lint": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
